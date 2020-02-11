@@ -109,7 +109,7 @@ stages:
         deploymentScope: 'Resource Group'
         ConnectedServiceName: 'Resource Manager - Tailspin - Space Game'
         subscriptionName: '$(subscription)'
-        action: 'Create or Update Resource Group'
+        action: 'Create Or Update Resource Group'
         resourceGroupName: 'tailspin-spacegame-web-rg'
         location: '$(location)'
         templateLocation: 'Linked artifact'
